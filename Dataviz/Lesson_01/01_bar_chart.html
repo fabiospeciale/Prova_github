@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    
+    </head>
+    <body>
+    
+    
+    <svg  width="600"  height="500">
+        
+        <g fill="red"><rect x="10" y="10" height="380" width="40"></rect>
+            <rect x="60" y="40" height="350" width="40"></rect>
+            <rect x="110" y="20" height="370" width="40"></rect>
+            <rect x="160" y="160" height="230" width="40"></rect>
+        </g>
+        <g >
+        <line stroke="black" stoke-width="4" x1="5" y1="5" x2="5" y2="390"> </line>
+            <line stroke="black" stoke-width="4" x1="5" y1="390" x2="300" y2="390"> </line>
+                    </g>
+        <g>
+        <text x="25" y="410"> 1</text>
+        <text x="75" y="410"> 2</text>
+        <text x="125" y="410"> 3</text>
+        <text x="175" y="410"> 4</text>
+        </g>
+        </svg>
+    
+        
+        
+        <!-il modo migliore->
+    <svg width="600"  height="500" y="600">
+        
+        <g fill="red" transform="translate(10,10)">    <rect  height="380" width="40"></rect> <text x="25" y="410" text-anchor="middle"> 1</text></g>
+         <g fill="blue" transform="translate(10,10)">   <rect x="60" y="40" height="350" width="40"></rect> <text x="75" y="410" text-anchor="middle"> 2</text></g>
+         <g fill="yellow" transform="translate(10,10)">   <rect x="110" y="20" height="370" width="40"></rect> <text x="75" y="410" text-anchor="middle"> 2</text></g>
+         
+        </g>
+        </svg>
+    
+    
+    </body>
+</html>

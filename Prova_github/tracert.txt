@@ -1,0 +1,17 @@
+ un tracert dal tuo pc alla macchina virtuale
+
+
+[10:09] 
+
+se vai nel cerca di windows e scrivi 
+cmd
+nel terminale prova a scrivere
+
+tracert TUO-IP-PUBBLICO
+
+
+[10:10] 
+
+e vediamo se arrivi fino alla macchina!
+
+dovrebbe darti un po’ di righe come risultato.. mal che vada mandami una foto
